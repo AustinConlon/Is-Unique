@@ -1,5 +1,6 @@
 
 extension String {
+    /// Checks whether string has all unique characters.
     var isUnique: Bool {
         var characters = Set<Character>()
 
